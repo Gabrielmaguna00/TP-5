@@ -1,0 +1,54 @@
+[
+  {
+    "accepted": ["nahue@gmail.com", "lore@gmail.com"],
+    "rejected": [],
+    "envelopeTime": 1104,
+    "messageTime": 613,
+    "messageSize": 618,
+    "response": "250 Accepted [STATUS=new MSGID=YzHuv9JJ.g5RgPPRYzHuyrExefDKH38HAAAAAdfk3EDyRTq.RJM-XT7ECpU]",
+    "envelope": {
+      "from": "naza@gmail.com",
+      "to": ["nahue@gmail.com", "lore@gmail.com"]
+    },
+    "messageId": "<a0fddd27-362f-573b-787b-3577142195d6@gmail.com>"
+  },
+  {
+    "accepted": ["nahue@gmail.com", "lore@gmail.com"],
+    "rejected": [],
+    "envelopeTime": 1126,
+    "messageTime": 619,
+    "messageSize": 618,
+    "response": "250 Accepted [STATUS=new MSGID=YzHuv9JJ.g5RgPPRYzHu7.RF9C0DMK7pAAAAAqHk7B2FgLs7uqJURfP1ZJ8]",
+    "envelope": {
+      "from": "naza@gmail.com",
+      "to": ["nahue@gmail.com", "lore@gmail.com"]
+    },
+    "messageId": "<3f06110e-4d24-b3e3-38ec-9a5d1e21e28c@gmail.com>"
+  },
+  {
+    "accepted": ["nahue@gmail.com", "lore@gmail.com"],
+    "rejected": [],
+    "envelopeTime": 1117,
+    "messageTime": 626,
+    "messageSize": 618,
+    "response": "250 Accepted [STATUS=new MSGID=YzHuv9JJ.g5RgPPRYzHvGFlPzs3qaLXFAAAAA9AawE4G59U4EYF1IEPh4hs]",
+    "envelope": {
+      "from": "naza@gmail.com",
+      "to": ["nahue@gmail.com", "lore@gmail.com"]
+    },
+    "messageId": "<38a42e08-6e00-4ae2-0e7a-b73f9b7653a3@gmail.com>"
+  },
+  {
+    "accepted": ["nahue@gmail.com", "lore@gmail.com"],
+    "rejected": [],
+    "envelopeTime": 1106,
+    "messageTime": 608,
+    "messageSize": 618,
+    "response": "250 Accepted [STATUS=new MSGID=YzHwpdJJ.g5RgTDMYzHxRTmDs9nAE7syAAAAAYiIQZ28c50CIueVYc4JmNg]",
+    "envelope": {
+      "from": "naza@gmail.com",
+      "to": ["nahue@gmail.com", "lore@gmail.com"]
+    },
+    "messageId": "<eb34c6fc-6000-1ee8-4396-fe224f2bbe54@gmail.com>"
+  }
+]
