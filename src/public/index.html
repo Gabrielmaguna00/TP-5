@@ -1,1 +1,35 @@
-<a href="chat.html">Ir a chat</a>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Ingress</title>
+  </head>
+  <body class="index">
+    <form class="box" action="chat.html">
+      <input
+        class="input"
+        type="text"
+        placeholder="Username"
+        required
+        name="username"
+      />
+      <div class="select is-link">
+        <select name="room">
+          <option value="general" id="general" selected>General</option>
+          <option value="Facultad" id="Facultad">Facultad</option>
+          <option value="Deportes" id="Deportes">Deportes</option>
+          <option value="Gaming" id="Gaming">Gaming</option>
+          <option value="Amigos" id="Amigos">Amigos</option>
+        </select>
+      </div>
+      <button class="button" type="submit">Go</button>
+    </form>
+  </body>
+</html>

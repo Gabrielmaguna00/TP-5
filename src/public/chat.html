@@ -1,2 +1,58 @@
-<a href="index.html">Volver</a>
-Estas en el chat
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="chat.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+    <title>Chat</title>
+  </head>
+  <body>
+    <div class="parent">
+      <div class="room">
+        <div class="title">Rooms</div>
+        <div class="rooms">
+          <a href="#"><p>general</p></a>
+          <a href="#"><p>lol</p></a>
+          <a href="#"><p>facultad</p></a>
+        </div>
+        <div class="create">
+          <form class="box" action="chat.html">
+            <input
+              class="input"
+              type="text"
+              placeholder="Create Room"
+              name="Room"
+            /><input class="button" type="submit" value="create" />
+          </form>
+        </div>
+      </div>
+      <div class="chat">
+        <div class="show__chat">CHAT</div>
+        <div class="input_chat">
+          <form class="box" id="chat-form" action="" method="post">
+            <input
+              id="chatMessage"
+              class="input"
+              type="text"
+              placeholder="write something..."
+              required
+            /><input class="button" type="submit" value="send" />
+          </form>
+        </div>
+      </div>
+      <div class="users">
+        <div class="title">Users Online</div>
+        <div class="users_online">
+          <ul id="users_list"></ul>
+        </div>
+      </div>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./js/chat.js"></script>
+  </body>
+</html>

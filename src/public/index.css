@@ -1,0 +1,18 @@
+.index {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+form {
+  height: 10rem;
+  width: 17rem;
+  flex-direction: column;
+  justify-content: center;
+}
+.button {
+  margin-top: 1rem;
+}
+.select {
+  margin-top: 1rem;
+}
